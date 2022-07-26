@@ -18,7 +18,7 @@ If you are a JS dev, After learning the fundamentals. You have to learn Async, A
 
 ### What is Await?
 
-The await operator is used to wait for a Promise . It can only be used inside an async function within regular JavaScript code; however it can be used on its own with JavaScript modules.3 days ago
+The await operator is used to wait for a Promise. It can only be used inside an async function within regular JavaScript code; however it can be used on its own with JavaScript modules.
 
 ### What is Async?
 
