@@ -39,3 +39,20 @@ createPost({
     title: 'Post Three',
     body: 'This is post three'
 }).then(getPosts);
+
+const promise1 = Promise.resolve('Hello, World!');
+const promise2 = 10;
+const promise3 = new Promise((resolve, reject) => {
+    setTimeout(resolve, 2000, "Goodbye, World!");
+});
+const promise4 = fetch('https://jsonplaceholder.typicode.com/posts/1').then(response => response.json());
+
+
+Promise.all([
+    promise1,
+    promise2,
+    promise3,
+    promise4
+]).then(values => {
+    console.log(values);
+});
